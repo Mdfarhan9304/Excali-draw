@@ -3,6 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
+  "main": "base.json",
+  "devDependencies":{
+    "@repo/typescript-config":"workspace:*"
+  },
+  "exports": {
+    "./base.json": "./base.json",
+    "./nextjs.json": "./nextjs.json",
+    "./react-library.json": "./react-library.json"
+  },
   "publishConfig": {
     "access": "public"
   }
