@@ -4,9 +4,6 @@
   "private": true,
   "license": "MIT",
   "main": "base.json",
-  "devDependencies":{
-    "@repo/typescript-config":"workspace:*"
-  },
   "exports": {
     "./base.json": "./base.json",
     "./nextjs.json": "./nextjs.json",

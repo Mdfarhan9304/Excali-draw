@@ -10,17 +10,21 @@
     "dev": "npm run build && npm run start"
   },
   "dependencies": {
+    "@repo/backend-common": "workspace:*",
+    "@repo/common": "workspace:*",
+    "@repo/db": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/express": "^5.0.3",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "@repo/backend-common":"workspace:*",
-    "@repo/common":"workspace:*"
+    "mongoose": "^8.20.1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jsonwebtoken": "^9.0.5"
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/mongoose": "^5.11.97"
   }
 }
